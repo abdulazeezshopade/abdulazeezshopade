@@ -1,0 +1,81 @@
+/* Use a modern, clean design with a soft color palette */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background: #005f99;
+  color: #fff;
+  padding: 2.5rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-container h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.tagline {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Main content styling */
+main {
+  background: #fff;
+  margin-top: -20px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  border-bottom: 2px solid #005f99;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+a {
+  color: #005f99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background: #222;
+  color: #fff;
+}
